@@ -1,3 +1,8 @@
+/**
+ * @author Douglas Nicolas(douglaskav)
+ * [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem)
+ */
+
 function miniMaxSum(arr) {
 	let x = arr.reduce((a, b) => a + b);
 
@@ -7,5 +12,4 @@ function miniMaxSum(arr) {
 	console.log(maxValue, minValue);
 }
 
-miniMaxSum([396285104, 573261094, 759641832, 819230764, 364801279]);
 miniMaxSum([1, 2, 3, 4, 5]);
