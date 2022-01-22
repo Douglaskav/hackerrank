@@ -1,3 +1,10 @@
+/**
+ * @author Douglas Nicolas(douglaskav)
+ * [Time-Conversion](https://www.hackerrank.com/challenges/time-conversion/problem)
+ */
+
+
+
 function timeConversion(s) {
   let timeset = s.substr(s.length - 2, s.length);
 
