@@ -3,6 +3,10 @@
  * [Number Line Jumps](https://www.hackerrank.com/challenges/kangaroo)
  */
 
+// Velocity Relativity Concept
+Vrel = V1 - V2 = race
+Vrel = V1 + V2 = head-on collision
+
 function kangaroo(x1, v1, x2, v2) {
 	let isPossibleToCatchUp =
 		(x1 > x2 && v1 > v2) || (x2 > x1 && v2 > v1) ? true : false;
