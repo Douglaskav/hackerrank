@@ -4,8 +4,8 @@
  */
 
 // Velocity Relativity Concept
-Vrel = V1 - V2 = race
-Vrel = V1 + V2 = head-on collision
+// Vrel = V1 - V2 = race
+// Vrel = V1 + V2 = head-on collision
 
 function kangaroo(x1, v1, x2, v2) {
 	let isPossibleToCatchUp =
